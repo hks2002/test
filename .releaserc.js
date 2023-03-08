@@ -17,5 +17,18 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     '@semantic-release/github'
-  ]
+  ]，
+  "release": {
+    "analyzeCommits": "@semantic-release/commit-analyzer",
+    //"verifyConditions": "@semantic-release/npm",
+    //"prepare": "@semantic-release/npm",
+    "generateNotes" : "@semantic-release/release-notes-generator",
+    "publish": "@semantic-release/github",
+    "success": false,
+    "fail": false,
+    "branch": "master",
+    "npmPublish": false,
+    "tarballDir": "target",
+    "assets": "target/*.war"
+  }
 }
