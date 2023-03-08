@@ -19,11 +19,6 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
-            - name: Install Node for semantic-release
-              uses: actions/setup-node@v3
-              with:
-                  node-version: 18
-
             - uses: google-github-actions/release-please-action@v3
               with:
                 release-type: maven
