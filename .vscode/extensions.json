@@ -1,0 +1,4 @@
+{
+    "recommendations": ["mwpb.java-prettier-formatter", "streetsidesoftware.code-spell-checker"],
+    "unwantedRecommendations": ["vscjava.vscode-java-dependency", "vscjava.vscode-spring-boot-dashboard"]
+}

@@ -13,11 +13,29 @@
 	<artifactId>rptSrv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>rptsrv</name>
+	<name>crystal-report-server-java</name>
 	<description>An Crystal Report Server for java</description>
-	<properties>
-		<java.version>17</java.version>
-	</properties>
+	<url>https://github.com/hks2002/crystal-report-server-java</url>
+	<licenses>
+		<license>
+			<name>MIT</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Robert Huang</name>
+			<email>56649783@qq.com</email>
+			<organization>Dedienne Aerospace China ZhuHai</organization>
+			<organizationUrl></organizationUrl>
+		</developer>
+	</developers>
+	<!-- Define where the source code for this project lives -->
+	<scm>
+		<connection>scm:git:https://github.com/hks2002/crystal-report-server-java.git</connection>
+		<developerConnection>scm:git:https://github.com/hks2002/crystal-report-server-java.git</developerConnection>
+		<url>https://github.com/hks2002/crystal-report-server-java</url>
+	</scm>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

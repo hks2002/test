@@ -1,0 +1,23 @@
+on:
+    workflow_dispatch:
+    push:
+        branches:
+            - 'master'
+jobs:
+    build:
+        # MUST CHANGE GITHUB_TOKEN PERMISSION FROM READ TO WRITE
+        strategy:
+            matrix:
+                os: [ubuntu-latest]
+        runs-on: ${{ matrix.os }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Install Node for semantic-release
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            
+            - run: npm install -g semantic-release
+            - run: after_success: semantic-release --prepare @conveyal/maven-semantic-release --publish @semantic-release/github,@conveyal/maven-semantic-release --verify-conditions @semantic-release/github,@conveyal/maven-semantic-release --verify-release @conveyal/maven-semantic-release --skip-maven-deploy
