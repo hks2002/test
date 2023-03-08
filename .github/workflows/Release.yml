@@ -19,5 +19,7 @@ jobs:
               with:
                   node-version: 18
 
-            - run: npm i -D semantic-release @terrestris/maven-semantic-release
-            - run: semantic-release
+            - uses: google-github-actions/release-please-action@v3
+                with:
+                release-type: maven
+                package-name: release-please-action
