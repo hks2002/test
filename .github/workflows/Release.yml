@@ -3,6 +3,11 @@ on:
     push:
         branches:
             - 'master'
+            
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
     Release:
         # MUST CHANGE GITHUB_TOKEN PERMISSION FROM READ TO WRITE
