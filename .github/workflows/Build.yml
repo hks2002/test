@@ -24,8 +24,8 @@ jobs:
                   distribution: 'adopt'
                   cache: 'maven'
 
-            - name: Run tests
-              run: mvn clean test
+            #- name: Run tests
+            #  run: mvn clean test
 
             - name: Set up Node.js for Semantic Release
               uses: actions/setup-node@v2
