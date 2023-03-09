@@ -27,12 +27,13 @@ jobs:
                   cache: 'maven'
                   
             - name: run package
-              run: mvn package -DskipTests
+              run: |
+               mvn package -DskipTests
+               git add target/*.war
 
             - uses: google-github-actions/release-please-action@v3
               with:
                 release-type: maven
-                package-name: tttt
                 extra-files: |
                     target/*.war
                     README.md
