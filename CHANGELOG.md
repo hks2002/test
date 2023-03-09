@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/hks2002/test/compare/v1.0.0...v1.1.0) (2023-03-09)
+
+
+### Features
+
+* release package test ([fa36714](https://github.com/hks2002/test/commit/fa36714ad1993d6a621ba6e70b6712d1c74a414a))
+* test package ([abcc843](https://github.com/hks2002/test/commit/abcc843930ef82b2611d84700a15546748829721))
+
 ## 1.0.0 (2023-03-08)
 
 
