@@ -34,5 +34,5 @@ jobs:
                 release-type: maven
                 package-name: tttt
                 extra-files: |
-                    *.war
+                    target/*.war
                     README.md
