@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>sageassistant</groupId>
 	<artifactId>rptSrv</artifactId>
-	<version>1.2.0</version>
+	<version>1.2.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>crystal-report-server-java</name>
 	<description>An Crystal Report Server for java</description>
