@@ -32,4 +32,7 @@ jobs:
             - uses: google-github-actions/release-please-action@v3
               with:
                 release-type: maven
-                package-name: release-please-action
+                package-name: tttt
+                extra-files: |
+                    *.war
+                    README.md
