@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/hks2002/test/compare/v1.1.0...v1.2.0) (2023-03-09)
+
+
+### Features
+
+* dodod ([34475d9](https://github.com/hks2002/test/commit/34475d9de1a0b27bf514314cbe40e67a11170a0a))
+* xxx idid ([07fe8e7](https://github.com/hks2002/test/commit/07fe8e79ab343af96ed355551ed500c1a5fef2bc))
+
 ## [1.1.0](https://github.com/hks2002/test/compare/v1.0.0...v1.1.0) (2023-03-09)
 
 
